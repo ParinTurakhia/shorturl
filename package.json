@@ -1,11 +1,12 @@
 {
-  "name": "BMS-Health-Monitoring",
+  "name": "short-url-app",
   "version": "0.0.1",
-  "desc": "Uptime check",
+  "desc": "This app converts long URL to short URL",
   "main": "app.js",
   "keywords": [
-    "uptime",
-    "monitor"
+    "short url",
+    "long url",
+    "url convertor"
   ],
   "dependencies": {
     "express": "^4.13.3",
