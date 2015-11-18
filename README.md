@@ -6,7 +6,7 @@ Node Api which accpets long URL and returns a hash, which can be used to redirec
 
 ### Tech stack
  * App : Nodejs
-* Data Store : Redis
+ * Data Store : Redis
 
 ### Version
 0.0.1
