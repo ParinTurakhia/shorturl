@@ -30,7 +30,7 @@ if(cluster.isMaster) {
 					console.log('Error');
 					res.end();
 				}
-				res.end('Short URL : '  + reply);
+				res.end('Look up key : '  + reply);
 		});
 	});
 
