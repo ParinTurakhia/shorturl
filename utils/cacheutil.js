@@ -10,11 +10,9 @@ function set(key, value, callback) {
 	redis.set(key, value, function(err, reply){
 			if(err) {
 				callback(err, null);
-				return;
 			}
 
 			callback(null, reply);
-			return;
 
 	});
 }
@@ -23,8 +21,7 @@ function get(key, deflautValue, callback) {
 
 	redis.get(key, function(err, reply){
 			if(err) {
-				callback(err, null);
-				return;
+				callback(err, null)
 			}
 
 			if(reply === null) {
@@ -32,7 +29,6 @@ function get(key, deflautValue, callback) {
 			}
 			
 			callback(null, reply);
-			return;
 
 	});
 }
