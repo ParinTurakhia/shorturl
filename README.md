@@ -13,9 +13,9 @@ Node Api which accpets long URL and returns a hash, which can be used to redirec
 
 ### API details
 ```sh
-[domain]/makeshort/?vl=[URL]
+[domain]/makeshort/[encoded URL]
 ```
 
 ```sh
-[domain]/makelong/?ky=[Hash retured]&df=[Default URL]
+[domain]/makelong/[short code]
 ```

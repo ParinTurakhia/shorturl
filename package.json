@@ -8,10 +8,12 @@
     "long url",
     "url convertor"
   ],
+  "scripts": {
+    "start": "node server.js"
+  },
   "dependencies": {
     "express": "^4.13.3",
-    "ioredis": "^1.10.0",
-    "ping": "~0.1.10"
+    "ioredis": "^1.10.0"
   },
   "author": "Parin H Turakhia<parin.turakhia123@gmail.com>",
   "engines": {
