@@ -72,9 +72,9 @@ if(cluster.isMaster) {
 	app.listen(port);
 
 	process.on('uncaughtException', function(){
-      console.log(err);
-      //Send some notification about the error  
-      process.exit(1);
+		  	console.log(err);
+		  	//Send some notification about the error  
+		  	process.exit(1);
   	});
 	
 }
