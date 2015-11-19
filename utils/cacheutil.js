@@ -1,3 +1,5 @@
+'use strict'
+
 var Redis = require('ioredis');
 var config = require('../config/config');
 var redis = new Redis(config.redisport, config.redisip);
@@ -25,7 +27,7 @@ function get(key, deflautValue, callback) {
 				return;
 			}
 
-			if(reply == null) {
+			if(reply === null) {
 				reply = deflautValue;
 			}
 			

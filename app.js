@@ -1,3 +1,5 @@
+'use strict'
+ 
 var cluster = require('cluster');
 var cacheutil = require('./utils/cacheutil.js')
 var urlshortner = require('./utils/urlshortner.js')

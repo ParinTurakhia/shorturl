@@ -1,3 +1,5 @@
+'use strict'
+
 var cache = require('../utils/cacheutil.js')
 var crypto = require('crypto');
 
@@ -20,7 +22,7 @@ function makelong(req, callback) {
 				callback(err, null);
 			}
 
-			if(reply == null){
+			if(reply === null){
 				reply = req.query.df;
 			}
 
