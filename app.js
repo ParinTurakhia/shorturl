@@ -9,7 +9,7 @@ var app         = express();
 var port 		= config.port || 8080;
 
 if(cluster.isMaster) {
-	var numWorkers = require('os').cpus().length;
+	var numWorkers = require('os').cpus().length * 2;
 
 	console.log('Master cluster setting up ' + numWorkers + ' workers...');
 
